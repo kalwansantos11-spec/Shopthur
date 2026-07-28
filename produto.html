@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar produto - ShopThur</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 450px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #FFD700;
+    }
+
+    p {
+      text-align: center;
+      color: #555;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 25px;
+      padding: 13px;
+      background: #FFD700;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Adicionar produto</h1>
+
+  <p>Cadastre seu primeiro produto no ShopThur.</p>
+
+  <label>Nome do produto</label>
+  <input type="text" placeholder="Ex: Camiseta preta">
+
+  <label>Imagem do produto</label>
+  <input type="file">
+
+  <label>Categoria</label>
+  <select>
+    <option>Selecione uma categoria</option>
+    <option>Roupas</option>
+    <option>Eletrônicos</option>
+    <option>Alimentos</option>
+    <option>Outros</option>
+  </select>
+
+  <label>Preço</label>
+  <input type="number" placeholder="R$ 0,00">
+
+  <label>Quantidade disponível</label>
+  <input type="number" placeholder="Ex: 10">
+
+  <label>Descrição do produto</label>
+  <textarea placeholder="Descreva seu produto"></textarea>
+
+  <button>
+    Publicar produto
+  </button>
+
+</div>
+
+</body>
+</html>

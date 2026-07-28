@@ -1,1 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>ShopThur - Marketplace</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    color: #222;
+}
+
+header {
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px #ddd;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d63384;
+}
+
+button {
+    background: #d63384;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.banner {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg,#ffe6f2,#fff);
+}
+
+.banner h1 {
+    font-size: 40px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.pesquisa {
+    margin: 30px auto;
+    max-width: 500px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+
+.categorias {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.categoria {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px #ddd;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d63384;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+ShopThur
+</div>
+
+<button>
+Quero vender
+</button>
+
+</header>
+
+
+<section class="banner">
+
+<h1>Bem-vindo à ShopThur</h1>
+
+<p>
+Um marketplace onde pessoas vendem e compram produtos com facilidade.
+</p>
+
+<button>
+Explorar produtos
+</button>
+
+</section>
+
+
+<div class="pesquisa">
+<input placeholder="🔍 O que você está procurando?">
+</div>
+
+
+<section class="categorias">
+
+<div class="categoria">💄 Beleza</div>
+<div class="categoria">📱 Eletrônicos</div>
+<div class="categoria">👕 Moda</div>
+<div class="categoria">🏠 Casa</div>
+
+</section>
+
+
+<section class="produtos">
+
+
+<div class="card">
+
+<img src="https://via.placeholder.com/250">
+
+<h3>Produto exemplo</h3>
+
+<p class="preco">
+R$ 99,90
+</p>
+
+<p>
+Vendido por: Loja Parceira
+</p>
+
+<button>
+Comprar no WhatsApp
+</button>
+
+</div>
+
+
+</section>
+
+
+</body>
+</html>
